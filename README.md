@@ -16,24 +16,28 @@ __*** No late projects will be accepted ****__
 * Use PJ4_Test.java to test correctness of your proggram
 
 * Compile programs (you are in directory containing Readme file):
-	> javac PJ4/*.java
-  > javac PJ4_Test.java
+```
+javac PJ4/*.java
+javac PJ4_Test.java
+```
 
 * Run programs (you are in directory containing Readme file):
+```
+// Run tests in PJ4 classes 
+java PJ4.Deck
+java PJ4.SimplePoker
 
-    // Run tests in PJ4 classes 
-    java PJ4.Deck
-    java PJ4.SimplePoker
+// Run main test program
+java PJ4_Test		
+```
 
-    // Run main test program
-    java PJ4_Test		
+Sample Output 1
+---------------
+```  
+java PJ4.Deck
+```
 
-
-************************************************************************************************************
-  
-- Sample output :  java PJ4.Deck
-
-===========================
+```
 Before shuffle:[A Clubs, 2 Clubs, 3 Clubs, 4 Clubs, 5 Clubs, 6 Clubs, 7 Clubs, 8 Clubs, 9 Clubs, 10 Clubs, J Clubs, Q Clubs, K Clubs, A Diamonds, 2 Diamonds, 3 Diamonds, 4 Diamonds, 5 Diamonds, 6 Diamonds, 7 Diamonds, 8 Diamonds, 9 Diamonds, 10 Diamonds, J Diamonds, Q Diamonds, K Diamonds, A Hearts, 2 Hearts, 3 Hearts, 4 Hearts, 5 Hearts, 6 Hearts, 7 Hearts, 8 Hearts, 9 Hearts, 10 Hearts, J Hearts, Q Hearts, K Hearts, A Spades, 2 Spades, 3 Spades, 4 Spades, 5 Spades, 6 Spades, 7 Spades, 8 Spades, 9 Spades, 10 Spades, J Spades, Q Spades, K Spades]
 ===========================
 Shuffle:52 cards:[8 Diamonds, A Diamonds, K Hearts, 9 Clubs, J Spades, 7 Spades, Q Clubs, 4 Spades, A Hearts, Q Spades, 9 Spades, K Diamonds, 6 Spades, 6 Diamonds, 6 Clubs, 2 Spades, 7 Hearts, 3 Diamonds, 5 Hearts, Q Diamonds, Q Hearts, 9 Hearts, 5 Clubs, 2 Diamonds, 7 Clubs, 2 Hearts, 10 Hearts, A Spades, 4 Clubs, A Clubs, 6 Hearts, 4 Hearts, 4 Diamonds, 3 Clubs, 3 Hearts, 8 Hearts, 8 Spades, 10 Clubs, 9 Diamonds, 10 Diamonds, K Spades, 7 Diamonds, K Clubs, 5 Diamonds, J Clubs, J Hearts, J Diamonds, 2 Clubs, 5 Spades, 10 Spades, 3 Spades, 8 Clubs]
@@ -89,11 +93,14 @@ Remain:7 cards:[A Hearts, 9 Spades, 6 Clubs, 6 Spades, J Diamonds, 10 Spades, 8 
 ===========================
 PlayingCardException: Not enough cards to deal
 ===========================
+```
 
-************************************************************************************************************
-
-- Sample output : java PJ4.SimplePoker
-
+Sample Output 2
+---------------
+```
+java PJ4.SimplePoker
+```
+```
 [A Spades, 10 Spades, Q Spades, J Spades, K Spades]
 Royal Flush!
 -----------------------------------
@@ -124,14 +131,14 @@ Royal Pair!
 [3 Diamonds, 9 Diamonds, 3 Spades, 8 Diamonds, J Spades]
 Sorry, you lost!
 -----------------------------------
+```
 
-
-************************************************************************************************************
-
-$ java PJ4_Test 1000
-
-
-
+Sample Output 3
+---------------
+```
+java PJ4_Test 1000
+```
+```
 Payout Table          Multiplier
 =======================================
 Royal Flush     |       250
@@ -143,8 +150,6 @@ Straight        |       5
 Three of a Kind |       3
 Two Pairs       |       2
 Royal Pair      |       1
-
-
 
 -----------------------------------
 Balance:$1000
@@ -171,8 +176,6 @@ Your balance:$500, one more game (y or n)?y
 
 Want to see payout table (y or n)y
 
-
-
 Payout Table          Multiplier
 =======================================
 Royal Flush     |       250
@@ -185,8 +188,6 @@ Three of a Kind |       3
 Two Pairs       |       2
 Royal Pair      |       1
 
-
-
 -----------------------------------
 Balance:$500
 Enter bet:500
@@ -197,6 +198,4 @@ Sorry, you lost!
 
 Your balance is 0
 Bye!
-
-
-	
+```
