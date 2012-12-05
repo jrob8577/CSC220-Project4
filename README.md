@@ -1,39 +1,32 @@
 CSC220 Programming Project#4
 ============================
  
-Due Date: Mid-night, Friday, December 21
+__Due Date: Mid-night, Friday, December 21__
 
-*** No late projects will be accepted ****
+__*** No late projects will be accepted ****__
 
-- Upload a zip file, including PlayingCard.java and SimplePoker.java, to ilearn
+* Upload a zip file, including PlayingCard.java and SimplePoker.java, to ilearn
 
-- Implement poker game program in package PJ4:
+* Implement poker game program in package PJ4:
+  * Part I  (40%) Implement Deck class
+  *  Part II (60%) Implement SimplePoker class
  
-      Part I  (40%) Implement Deck class
-      Part II (60%) Implement SimplePoker class
+* See PJ4/PlayingCard.java and VPJ4/SimplePoker.java for more info. 
  
-      Bonus   (30%) Add GUI, only after you have completed I & II
-                    Must complete by same due date
-  		    Talk to me before you start this part. 
- 
-  See PJ4/PlayingCard.java and VPJ4/ideoPoker.java for more info. 
- 
+* Use PJ4_Test.java to test correctness of your proggram
 
-- Use PJ4_Test.java to test correctness of your proggram
+* Compile programs (you are in directory containing Readme file):
+	> javac PJ4/*.java
+  > javac PJ4_Test.java
 
-- Compile programs (you are in directory containing Readme file):
-	
-  javac PJ4/*.java
-  javac PJ4_Test.java
+* Run programs (you are in directory containing Readme file):
 
-- Run programs (you are in directory containing Readme file):
+    // Run tests in PJ4 classes 
+    java PJ4.Deck
+    java PJ4.SimplePoker
 
-  // Run tests in PJ4 classes 
-  java PJ4.Deck
-  java PJ4.SimplePoker
-
-  // Run main test program
-  java PJ4_Test		
+    // Run main test program
+    java PJ4_Test		
 
 
 ************************************************************************************************************
