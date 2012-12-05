@@ -26,8 +26,10 @@ javac PJ4_Test.java
 // Run tests in PJ4 classes 
 java PJ4.Deck
 java PJ4.SimplePoker
+```
 
-// Run main test program
+* Run main test program
+```
 java PJ4_Test		
 ```
 
